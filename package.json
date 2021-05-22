@@ -1,0 +1,12 @@
+{
+    "name": "com.unity.alprogram.alvalues",
+    "displayName": "Alvalues",
+    "version": "1.0",
+    "unity": "2020.2.8",
+    "description": "This package is already in development",
+    "keywords": ["values", "setters", "scriptable"],
+    "category": "Values",
+    "dependencies":{
+        
+    }
+}

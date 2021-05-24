@@ -1,12 +1,15 @@
 using UnityEngine;
 using Alprogram.Alvalues;
 
-public class CollisionDetectorInt : MonoBehaviour
+namespace Alprogram.Alvalues
 {
-    [SerializeField] private IntValue value;
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    public class CollisionDetectorInt : MonoBehaviour
     {
-        value.CurrentValue++;
+        [SerializeField] private IntValue value;
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            value.CurrentValue++;
+        }
     }
 }

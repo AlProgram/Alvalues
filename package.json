@@ -6,7 +6,10 @@
     "description": "This package is already in development",
     "keywords": ["values", "setters", "scriptable"],
     "category": "Values",
-    "dependencies": {},
+    "dependencies": 
+    {
+        "com.unity.textmeshpro": "3.0.4",
+    },
     "author": {
         "name": "Alprogram",
         "portfolio": "https://bialbertocabrera.wixsite.com/alprogram"
